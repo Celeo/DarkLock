@@ -1,0 +1,10 @@
+name: DarkLock
+author: Celeo
+version: 1.1.4.0
+website: www.darktidegames.com
+description: Locks the server from unauthorized access.
+main: net.thedarktide.celeo.darklock.DarkLockCore
+commands:
+   lockdown:
+     usage: /<command> [message|toggle]
+     description: Toggles lockdown mode on the server
